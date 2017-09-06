@@ -1,5 +1,5 @@
 export class Order {
-    constructor (public id:string, public user:string, public amount:string) {
+    constructor (public id:string, public table:string, public user:string, public amount:string) {
         
     }
 }

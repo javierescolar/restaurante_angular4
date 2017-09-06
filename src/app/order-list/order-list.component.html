@@ -1,1 +1,10 @@
-<app-order *ngFor="let order of orders" [order]="order"></app-order>
+<diV class="table-margin">
+    <div class="row header-row">
+      <div class="col-3">Order</div>
+      <div class="col-3">Table</div>
+      <div class="col-3">User</div>
+      <div class="col-3">Amount</div>
+    </div>
+    <app-order *ngFor="let order of orders" [order]="order"></app-order>
+</diV>
+
