@@ -5,9 +5,9 @@ import { Dish } from '../models/dish';
 export class DishService {
 
   private dishes: Dish[] = [
-        new Dish('1','Entrante','Alitas','image1.jpg'),
-        new Dish('2','Primero','Ternera','image2.jpg'),
-        new Dish('3','Segundo','Pescado','image3.jpg')
+        new Dish('1','Entrante','Alitas','http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.cl/files/BK_Web_SteakHouse_300x270.jpg'),
+        new Dish('2','Primero','Ternera','http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.cl/files/BK_Web_SteakHouse_300x270.jpg'),
+        new Dish('3','Segundo','Pescado','http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.cl/files/BK_Web_SteakHouse_300x270.jpg')
     ];
     constructor() { }
     

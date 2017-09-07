@@ -7,6 +7,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 
 import { OrderListComponent } from './order-list/order-list.component';
 import { OrderComponent } from './order-list/order.component';
+import { OrderDetailComponent } from './order-list/order-detail.component';
 import { DishListComponent } from './dish-list/dish-list.component';
 import { DishComponent } from './dish-list/dish.component';
 
@@ -21,7 +22,8 @@ import { DishService } from './services/dish.service';
     OrderListComponent,
     OrderComponent,
     DishListComponent,
-    DishComponent
+    DishComponent,
+    OrderDetailComponent
   ],
   imports: [
     routes,
