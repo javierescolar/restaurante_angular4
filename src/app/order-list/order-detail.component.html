@@ -1,0 +1,8 @@
+<div *ngIf="selectedOrder">
+  order-detail {{selectedOrder.id}} works!
+  <p>{{selectedOrder.id}}</p>
+  <p>{{selectedOrder.table}}</p>
+  <p>{{selectedOrder.user}}</p>
+  <p>{{selectedOrder.amount}}</p>
+  <span class="btn btn-primary" (click)="disabledSelectedOrden()">Close</span>
+</div>
